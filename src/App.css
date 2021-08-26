@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size:62.5% ;
+}
+.homepage{
+    height: 100vh;
+}
+.top{
+    display: flex;
+    height: 13vh;
+    position: relative;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
+}
+
+.searchbar{
+    height: 13vh;
+    width: 50em;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.search_input{
+    width: 20em;
+    font-size: 1.7em;
+    height: 45px;
+    padding:0.9em 0px 0.9em 1em;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 247, 247);
+}
+ .search_btn{
+    padding: 20px 12px 14px 10px;
+    background-color: rgb(117, 110, 212);
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+ .container{
+    display: flex;
+    height: 87vh;
+}
+
+.email_input{
+    width: 30em;
+    height: 3em;
+}
+
+.left_container{
+    width: 35em;
+    padding: 1.6em 1.8em;
+    background-color: rgb(71, 65, 160);
+}
+.right_container{
+    background-color: rgb(248, 247, 247);
+    width: 100%;
+}
+.lists{
+    padding: 0.8em 0;
+    margin: 0.3em 0;
+}
+li{
+    font-size: 1.7em;
+    list-style-type: none;
+    padding: 0.6em 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(204, 194, 194);
+}
+.list_heading{
+    font-size: 2.1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+h3{
+    font-size: 2.1em;
+    margin-bottom: 1.1em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+hr{
+    color: rgba(216, 213, 213, 0.438);
+    height: 0.8px;
+    background-color: rgba(216, 213, 213, 0.438);
+    border-width: 0;
+}
+.main_heading{
+    display: inline-flex;
+    position: absolute;
+}
+.logo1{
+    color: rgb(71, 65, 160);
+    font-size: 7em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+}
+.logo2{
+    font-size: 4em;
+    color: rgb(71, 65, 160);
+    margin-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tagline{
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 65, 160);
+    margin: 3.5em 0px 0px 5.6em;
+}
+.email_heading{
+    color: rgb(63, 63, 63);
+    margin: 1.2em 0px 0px 2em;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.email_div{
+    margin: 10em 0px 0px 40em;
+    width: 600px;
+}
+label{
+    color: rgb(48, 45, 45);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+}
+.input_box{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#email_input{
+    width: 13em;
+    font-size: 2em;
+    height: 2em;
+    margin-left: 3em;
+    padding-left: 1em;
+    border: 2px rgb(226, 217, 217) solid;
+}
+#verify_btn{
+    padding: 8px 0px 8px 0px;
+    font-size: 2em;
+    width: 4em;
+    background-color: rgb(94, 88, 189);
+    color: white;
+    border: none;
+    outline: grey;
+    cursor: pointer;
+}
+.icons{
+    width: 150px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin: 30px 0px 15px 35em;
+    border-right: 1.5px rgba(224, 224, 224, 0.986) solid;
+}
+.notification{
+    text-decoration: none;
+    margin-left: 30px;
+    color: rgba(199, 195, 195, 0.986);
+}
+.badge{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 17px;
+    border-radius: 5px;
+    padding: 1px 4px;
+    margin-left: -10px;
+}
+
+.right_header{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.right_header h4{
+    display: inline-flex;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 156, 156);
+}
+
+.right_header img{
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 45px;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
